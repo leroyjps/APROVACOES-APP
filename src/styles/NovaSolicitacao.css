@@ -1,0 +1,41 @@
+/* src/styles/NovaSolicitacao.css */
+.nova-solicitacao-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nova-solicitacao-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-solicitacao input,
+.form-solicitacao select,
+.form-solicitacao textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-solicitacao button {
+  width: 100%;
+  padding: 10px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mensagem {
+  text-align: center;
+  color: green;
+  margin-bottom: 10px;
+}

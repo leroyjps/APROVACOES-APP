@@ -1,0 +1,47 @@
+/* src/styles/Menu.css */
+.menu {
+  background-color: #004080;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.menu-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  display: inline;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu-list a.active {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

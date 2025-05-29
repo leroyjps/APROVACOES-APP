@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "appwrite": "^18.1.1",
+    "react-router-dom": "^7.6.1"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
